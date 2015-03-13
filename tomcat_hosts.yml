@@ -1,0 +1,6 @@
+---
+- hosts: tomcat
+  sudo: true
+  roles:
+    - common
+    - tomcat
